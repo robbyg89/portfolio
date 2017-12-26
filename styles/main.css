@@ -32,10 +32,11 @@ main {
 
 footer.mdl-mini-footer{
     bottom: 0;
+    padding: 0.5rem;
     position: fixed;
     width: 100%;
     z-index: 1;
-    padding: 0.5rem;
+    
 }
 
 footer.mdl-mini-footer > ul{
@@ -45,4 +46,10 @@ footer.mdl-mini-footer > ul{
 
 body {
     padding-bottom: 5rem;
+}
+
+@media screen and (max-width: 1024px) {
+    header.mdl-layout__header {
+        display: flex;
+    }
 }
