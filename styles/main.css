@@ -1,5 +1,5 @@
 header {
-    background: url(/images/profile-picture.jpg) center / cover;
+    background: url(/bloc/portfolio/styles/images/profile-picture.jpg) center / cover;
     height: 60vh;
     justify-content: center;
     text-align: center;
@@ -14,4 +14,35 @@ h1 {
     color: hlsa(0, 0%, 100%, 0.7);
     font-weight: lighter;
     font-size: 1.6em;
+}
+
+main {
+    max-width: 900px;
+    
+}
+
+.project-description {
+    padding-left: 0;
+    
+}
+
+.project img {
+    width: 100%;
+}
+
+footer.mdl-mini-footer{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    padding: 0.5rem;
+}
+
+footer.mdl-mini-footer > ul{
+    margin: auto;
+    font-size: 2rem;
+}
+
+body {
+    padding-bottom: 5rem;
 }
