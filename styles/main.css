@@ -11,7 +11,7 @@ h1 {
 }
 
 .slogan {
-    color: hlsa(0, 0%, 100%, 0.7);
+    color: white;
     font-weight: lighter;
     font-size: 1.6em;
 }
@@ -28,6 +28,10 @@ main {
 
 .project img {
     width: 100%;
+}
+
+footer i:hover  {
+    color: #f69d3a;
 }
 
 footer.mdl-mini-footer{
